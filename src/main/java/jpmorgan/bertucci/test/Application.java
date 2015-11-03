@@ -1,5 +1,7 @@
 package jpmorgan.bertucci.test;
 
+import jpmorgan.bertucci.test.model.StockSymbol;
+import jpmorgan.bertucci.test.repository.IStockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class Sample implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
     @Autowired
     private IStockRepository repository;
@@ -16,11 +18,15 @@ public class Sample implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        System.out.println(repository.getQuote());
+        for(StockSymbol s : repository.getStocks().values()) {
+
+
+            System.out.println(s.toString());
+        }
     }
 
     public static void main(String[] args) throws Exception {
 
-        SpringApplication.run(Sample.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
