@@ -1,9 +1,8 @@
-package jpmorgan.bertucci.test.calculations;
+package jpmorgan.bertucci.simplestock.calculations;
 
-import jpmorgan.bertucci.test.model.StockSymbol;
+import jpmorgan.bertucci.simplestock.model.StockSymbol;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 /**
  * Created by Giuseppe on 03/11/2015.

@@ -1,7 +1,7 @@
-package jpmorgan.bertucci.test.repository;
+package jpmorgan.bertucci.simplestock.repository;
 
-import jpmorgan.bertucci.test.model.StockSymbol;
-import jpmorgan.bertucci.test.model.Trade;
+import jpmorgan.bertucci.simplestock.model.StockSymbol;
+import jpmorgan.bertucci.simplestock.model.Trade;
 
 import java.math.BigDecimal;
 import java.util.Map;

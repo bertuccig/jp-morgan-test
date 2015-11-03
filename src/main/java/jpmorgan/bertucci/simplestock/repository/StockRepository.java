@@ -1,9 +1,9 @@
-package jpmorgan.bertucci.test.repository;
+package jpmorgan.bertucci.simplestock.repository;
 
-import jpmorgan.bertucci.test.model.StockSymbol;
-import jpmorgan.bertucci.test.model.StockType;
-import jpmorgan.bertucci.test.model.Trade;
-import jpmorgan.bertucci.test.model.TradeOperation;
+import jpmorgan.bertucci.simplestock.model.StockSymbol;
+import jpmorgan.bertucci.simplestock.model.StockType;
+import jpmorgan.bertucci.simplestock.model.Trade;
+import jpmorgan.bertucci.simplestock.model.TradeOperation;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package jpmorgan.bertucci.test.model;
+package jpmorgan.bertucci.simplestock.model;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

@@ -1,4 +1,4 @@
-package jpmorgan.bertucci.test.model;
+package jpmorgan.bertucci.simplestock.model;
 
 /**
  * Created by Giuseppe on 03/11/2015.

@@ -1,9 +1,9 @@
-package jpmorgan.bertucci.test;
+package jpmorgan.bertucci.simplestock;
 
-import jpmorgan.bertucci.test.calculations.DividendCalculation;
-import jpmorgan.bertucci.test.calculations.PECalculation;
-import jpmorgan.bertucci.test.model.StockSymbol;
-import jpmorgan.bertucci.test.repository.IStockRepository;
+import jpmorgan.bertucci.simplestock.calculations.DividendCalculation;
+import jpmorgan.bertucci.simplestock.calculations.PECalculation;
+import jpmorgan.bertucci.simplestock.model.StockSymbol;
+import jpmorgan.bertucci.simplestock.repository.IStockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -1,8 +1,7 @@
-package jpmorgan.bertucci.test.model;
+package jpmorgan.bertucci.simplestock.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
-import java.text.DecimalFormat;
 
 /**
  * Created by Giuseppe on 03/11/2015.
